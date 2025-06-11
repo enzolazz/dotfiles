@@ -1,2 +1,3 @@
 ```bash
-git clone --recurse-submodules <URL_DO_REPOSITORIO>```
+git clone --recurse-submodules <URL_DO_REPOSITORIO> ~/.config
+```
