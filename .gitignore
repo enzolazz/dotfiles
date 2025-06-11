@@ -1,0 +1,34 @@
+# Exclude everything by default
+*
+!README.md
+!.gitignore
+
+# Include only these specific dot-directories
+!kitty/
+!tmux/
+!nvim/
+!bottom/
+!eza/
+!fastfetch/
+
+# Tell Git to not ignore contents of those directories
+!kitty/**
+!tmux/**
+!nvim/**
+!bottom/**
+!eza/**
+!fastfetch/**
+
+# Neovim specific ignores
+nvim/tt.*
+nvim/.tests
+nvim/doc/tags
+nvim/debug
+nvim/.repro
+nvim/foo.*
+nvim/*.log
+nvim/data
+
+# Tmux specific ignores
+tmux/plugins/
+
