@@ -1,4 +1,4 @@
 [submodule "nvim"]
 	path = nvim
-	url = git@github.com:enzolazz/nvim-dotfiles.git
+	url = https://github.com/enzolazz/nvim.git
 	branch = main
